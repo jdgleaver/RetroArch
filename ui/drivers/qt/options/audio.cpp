@@ -40,6 +40,7 @@ QWidget *AudioPage::widget()
    outputGroup->add(MENU_ENUM_LABEL_AUDIO_DRIVER);
    outputGroup->add(MENU_ENUM_LABEL_AUDIO_DEVICE);
    outputGroup->add(MENU_ENUM_LABEL_AUDIO_LATENCY);
+   outputGroup->add(MENU_ENUM_LABEL_AUDIO_FASTFORWARD_MUTE);
 
    resamplerGroup->add(MENU_ENUM_LABEL_AUDIO_RESAMPLER_DRIVER);
    resamplerGroup->add(MENU_ENUM_LABEL_AUDIO_RESAMPLER_QUALITY);
